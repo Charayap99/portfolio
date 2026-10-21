@@ -1,0 +1,231 @@
+header{
+    text-align: center;
+    background: cornflowerblue;
+    padding: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    align-items: center;
+    flex-wrap: wrap;
+}
+body{
+    background-color: gray;
+}
+main{
+    background: lightgrey;
+}
+.div2{ 
+   display: flex;
+   gap: 50px;
+}
+
+/*Navigation styling*/
+#nav1 {
+    display: block;
+    max-width: 1330px 100%;
+    height:fit-content;
+    text-align: center;
+    font-size:30px;
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color:midnightblue;
+    flex-wrap: wrap;
+}
+#nav1 li a{
+    color: white;
+    transition-duration: 0.5s;
+    display: block;
+    text-decoration: none;
+}
+#nav1 li a:hover{
+    color: cyan;
+    padding: 1px;
+    font-size: 34px;
+    transition-duration: 0.3s;
+    text-decoration: underline;
+}
+/*Profile image styling*/
+.pic1{
+    text-align: right;
+}
+.pic1 img{
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+    text-align: left;
+}
+h1{
+    text-align: left;
+    margin-left: 10px;
+}
+p{
+    text-align: left;
+    margin-left: 1px;
+    font-size: 20px;
+}
+li{
+    text-align: left;
+    margin-left: 20px;
+}
+/* Content images styling*/
+.pic2{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.pic2 img{
+    object-fit: cover;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    
+}
+
+
+.sec2{
+    margin-right: 200px;
+    width: 100%;
+}
+.sec2 p{
+    margin-left: 50px;
+    width: 100%;
+}
+.sec2 p{
+    margin-left: 50px;
+}
+
+/* Images Styling*/
+#Images p{
+    font-size: 30px;
+    font-weight: bold;
+    text-align:center;
+    color: white;
+    background-color: midnightblue;
+    border: 3px solid black;
+    border-radius: 0px 10px 0px 10px;
+}
+
+/*content title styling*/
+.Boy p{
+    font-size: 30px;
+    font-weight: bold;
+    text-align:center;
+    color: white;
+    background-color: midnightblue;
+    border: 3px solid black;
+    border-radius: 0px 10px 0px 10px;
+}
+/*For all lists*/
+.Boy li{
+    font-size: 20px;
+    margin-left: 50px;
+}
+/*only for textarea*/
+textarea{
+    width: 500px;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: 30px;
+}
+/*Contact me styling*/
+label{
+    margin-left: 30px;
+    font-weight: bold;
+}
+input{
+    margin-left: 30px;
+}
+/*Button Styling*/
+#butn{
+    font-size: 15px;
+    width: 100px;
+    margin-bottom: 50px;
+    height: 35px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+#butn:hover{
+    font-size: 14px;
+    width: 100px;
+    margin-bottom: 50px;
+    height: 35px;
+    border: 2px solid midnightblue;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    transition-duration: 0.5s;
+}
+footer{
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 5px;
+    font-size: 15px;
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
+}
+/* my Project */
+
+.Proj .title1 h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align:center;
+    color: white;
+    background-color: midnightblue;
+    border: 3px solid black;
+    border-radius: 0px 10px 0px 10px;
+}
+.Proj .cards{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Proj div{
+    height: 420px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius:20px;
+    text-align: center;
+    box-shadow: 5px 5px gray ;
+    transition: 0.5s;
+    margin-bottom: 30px;
+}
+.Proj div img{
+    height: 150px;
+    width: 150px;
+    border: 2px solid green;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 20px;
+}
+.Proj div h2{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.Proj div:hover{
+    height: 427px;
+    width: 407px;
+    border: 2px solid cyan;
+    border-radius:20px;
+    text-align: center;
+    box-shadow: 3px 3px gray ;
+    transition: 0.5s;
+}
+.Proj p{
+    text-align: center;
+}
